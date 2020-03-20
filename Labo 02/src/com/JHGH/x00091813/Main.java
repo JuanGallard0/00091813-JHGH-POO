@@ -30,6 +30,7 @@ public class Main {
                         if (listaHerramientas.get(i).getTipo().equals(tipo))
                             System.out.println("\t" + listaHerramientas.get(i).toString());
                     }
+                    break;
                 case 4:
                     listaHerramientas.forEach(herramientasMinecraft::IncrementarDurabilidad);
                     System.out.println("\tdurabilidad +100 en todas la herramientas");
