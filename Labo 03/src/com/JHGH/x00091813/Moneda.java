@@ -40,7 +40,7 @@ public final class Moneda {
         JOptionPane.showMessageDialog(null, "Pago realizado con exito!\nSu vuelto es: " +
                 vuelto + "USD");
         montoTotal += costoEstadia;
-        JOptionPane.showMessageDialog(null, "Ventas actuales: " + montoTotal);
+        JOptionPane.showMessageDialog(null, "Ventas actuales: " + montoTotal + "USD");
     }
 }
 

@@ -8,13 +8,13 @@ public class Ticket {
     private RegistroTiempo registroTiempo;
 
     //contructor de entrada
-    public Ticket(int placa, int h, int min) {
+    public Ticket(String placa, int h, int min) {
         automovil = new Automovil(placa);
         registroTiempo = new RegistroTiempo(h, min);
     };
 
     //getters
-    public int getPlaca() {
+    public String getPlaca() {
         return automovil.getPlaca();
     }
 
@@ -37,7 +37,8 @@ public class Ticket {
         registroTiempo.setHoraSalida(h);
         registroTiempo.setMinutoSalida(min);
         JOptionPane.showMessageDialog(null, "Monto a pagar: " + registroTiempo.costoEstadia());
-        Moneda.pago(registroTiempo.costoEstadia());
+        if (registroTiempo.costoEstadia() > 0)
+            Moneda.pago(registroTiempo.costoEstadia());
     }
 
     @Override

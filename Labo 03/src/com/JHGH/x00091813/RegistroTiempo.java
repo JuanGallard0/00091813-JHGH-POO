@@ -37,7 +37,7 @@ public class RegistroTiempo {
     public float costoEstadia() {
         int diferenciaHora = horaSalida - horaEntrada;
         int diferenciaMinutos = minutoSalida - minutoEntrada;
-        if (diferenciaHora >= 2)
+        if (diferenciaHora > 2 || (diferenciaHora == 2 && diferenciaMinutos == 0))
             return 5.00f;
         else if (1 <= diferenciaHora && diferenciaHora < 2)
             return 1.00f;

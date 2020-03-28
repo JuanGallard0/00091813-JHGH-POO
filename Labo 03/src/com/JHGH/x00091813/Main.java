@@ -57,7 +57,7 @@ public class Main {
     }
 
     public static Ticket ingresarAutomovil() {
-        int placa = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el numero de placa:"));
+        String placa = JOptionPane.showInputDialog(null, "Digite el numero de placa:");
         int h, min;
         do {
             h = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese hora primero seguido de minutos de entrada.\nHora :"));
@@ -69,9 +69,9 @@ public class Main {
     }
 
     public static int buscarTicket(ArrayList<Ticket> lista) {
-        int placa = Integer.parseInt(JOptionPane.showInputDialog(null, "Qué placa desea buscar?: "));
+        String placa = JOptionPane.showInputDialog(null, "Qué placa desea buscar?: ");
         for (int i = 0; i < lista.size(); i++) {
-                if (lista.get(i).getPlaca() == placa)
+                if (lista.get(i).getPlaca().equalsIgnoreCase(placa))
                     return i;
             }
         return -1;

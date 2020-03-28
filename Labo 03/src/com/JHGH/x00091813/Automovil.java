@@ -2,15 +2,15 @@ package com.JHGH.x00091813;
 
 public class Automovil {
     //atributos
-    private int placa;
+    private String placa;
 
     //contructor
-    public Automovil(int placa) {
+    public Automovil(String placa) {
         this.placa = placa;
     }
 
     //getters
-    public int getPlaca() {
+    public String getPlaca() {
         return placa;
     }
 }
