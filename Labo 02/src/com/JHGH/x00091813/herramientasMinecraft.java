@@ -1,7 +1,5 @@
 package com.JHGH.x00091813;
 
-import java.util.ArrayList;
-
 public class herramientasMinecraft {
     //atributos
     private String tipo;
