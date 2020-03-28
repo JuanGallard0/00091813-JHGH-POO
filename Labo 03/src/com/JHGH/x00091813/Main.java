@@ -57,7 +57,7 @@ public class Main {
     }
 
     public static Ticket ingresarAutomovil() {
-        String placa = JOptionPane.showInputDialog(null, "Digite el numero de placa:");
+        String placa = JOptionPane.showInputDialog(null, "Digite la placa:");
         int h, min;
         do {
             h = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese hora primero seguido de minutos de entrada.\nHora :"));

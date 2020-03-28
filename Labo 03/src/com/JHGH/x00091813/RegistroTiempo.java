@@ -39,10 +39,11 @@ public class RegistroTiempo {
         int diferenciaMinutos = minutoSalida - minutoEntrada;
         if (diferenciaHora > 2 || (diferenciaHora == 2 && diferenciaMinutos == 0))
             return 5.00f;
-        else if (1 <= diferenciaHora && diferenciaHora < 2)
+        else if (diferenciaHora == 1 && minutoSalida >= minutoEntrada)
             return 1.00f;
-        else if (diferenciaMinutos >= 30)
+        else if (diferenciaMinutos <= 30 && diferenciaHora == 0)
+            return 0.00f;
+        else
             return 0.50f;
-        else return 0.00f;
+        }
     }
-}
