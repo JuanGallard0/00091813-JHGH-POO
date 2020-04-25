@@ -1,0 +1,6 @@
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\bin\Debug\Meet2304.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\bin\Debug\Meet2304.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\obj\Debug\Meet2304.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\obj\Debug\Meet2304.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\obj\Debug\Meet2304.csprojAssemblyReference.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Meet\Meet2304\Meet2304\Meet2304\obj\Debug\Meet2304.csproj.CoreCompileInputs.cache
