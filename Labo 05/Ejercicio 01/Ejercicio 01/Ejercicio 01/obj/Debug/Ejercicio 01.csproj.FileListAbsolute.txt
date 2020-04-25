@@ -1,0 +1,5 @@
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 05\Ejercicio 01\Ejercicio 01\Ejercicio 01\bin\Debug\Ejercicio_01.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 05\Ejercicio 01\Ejercicio 01\Ejercicio 01\bin\Debug\Ejercicio_01.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 05\Ejercicio 01\Ejercicio 01\Ejercicio 01\obj\Debug\Ejercicio 01.csprojResolveAssemblyReference.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 05\Ejercicio 01\Ejercicio 01\Ejercicio 01\obj\Debug\Ejercicio_01.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 05\Ejercicio 01\Ejercicio 01\Ejercicio 01\obj\Debug\Ejercicio_01.pdb
