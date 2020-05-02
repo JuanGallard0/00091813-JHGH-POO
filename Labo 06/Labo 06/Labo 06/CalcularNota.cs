@@ -22,7 +22,7 @@ namespace Labo_06
                         Console.Write("Nota de " + evaluacion.nombre + ": ");
                         nota = Convert.ToDouble(Console.ReadLine());
                         if (nota < 0.0 || nota > 10.0)
-                            throw new ArgumentOutOfRangeException("Nota fuera del rango.");
+                            throw new ArgumentOutOfRangeException();
                     }
                     catch (ArgumentOutOfRangeException e)
                     {

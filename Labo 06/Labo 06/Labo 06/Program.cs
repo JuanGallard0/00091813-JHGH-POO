@@ -19,7 +19,7 @@ namespace Labo_06
                 {
                     choice = Convert.ToByte(Console.ReadLine());
                     if (choice < 1 || choice > 4)
-                        throw new ArgumentOutOfRangeException("Esa opcion no existe.");
+                        throw new ArgumentOutOfRangeException();
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
@@ -32,7 +32,7 @@ namespace Labo_06
                 switch (choice)
                 {
                     case 1:
-                        porcentajeActual = calcularPorcentaje(listaEvaluaciones);
+                        porcentajeActual = CalcularPorcentaje(listaEvaluaciones);
                         if (porcentajeActual < 100)
                             listaEvaluaciones.Add(InputEvaluacion(porcentajeActual));
                         else 
@@ -51,13 +51,18 @@ namespace Labo_06
                         break;
                     case 3:
                         if (listaEvaluaciones.Any())
-                            eliminarEvaluacion(listaEvaluaciones);
+                            EliminarEvaluacion(listaEvaluaciones);
                         else
                             Console.WriteLine("La lista esta vacia.");
                         break;
                     case 4:
-                        double notaFinal = CalcularNota.Calcular(listaEvaluaciones);
-                        Console.WriteLine("Nota final: " + notaFinal);
+                        if (listaEvaluaciones.Any())
+                        {
+                            double notaFinal = CalcularNota.Calcular(listaEvaluaciones);
+                            Console.WriteLine("Nota final: " + notaFinal);
+                        }
+                        else
+                            Console.WriteLine("Ninguna evaluacion registrada.");
                         break;
                 }
             }
@@ -81,7 +86,7 @@ namespace Labo_06
                     Console.Write("(1)Laboratorio\t(2)Parcial\t(3)Tarea\nOPCION: ");
                     choice = Convert.ToByte(Console.ReadLine());
                     if (choice < 1 || choice > 3)
-                        throw new ArgumentOutOfRangeException("Esa opcion no existe.");
+                        throw new ArgumentOutOfRangeException();
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
@@ -103,11 +108,10 @@ namespace Labo_06
                     loop = false;
                     Console.Write("(Actual% = " + porcentajeActual + ") Porcentaje: ");
                     porcentaje = Convert.ToInt16(Console.ReadLine());
-                    if (porcentaje < 0 || porcentaje > 100)
-                        throw new ArgumentOutOfRangeException(
-                            "El porcentaje no puede ser menor que 0 o superior a 100.");
+                    if (porcentaje < 0)
+                        throw new ArgumentOutOfRangeException();
                     else if (porcentaje + porcentajeActual > 100)
-                        throw new PorcentajeOverflowException("*Porcentaje OverFlow.");
+                        throw new PorcentajeOverflowException("*Porcentaje desbordado.");
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
@@ -126,44 +130,11 @@ namespace Labo_06
                 }
             }
             loop = true;
-            string nombre = null;
-            while (loop)
-            {
-                try
-                {
-                    loop = false;
-                    Console.Write("Nombre: ");
-                    nombre = Console.ReadLine();
-                    if (string.IsNullOrEmpty(nombre))
-                        throw new NullStringException("*Required field.");
-                }
-                catch (NullStringException e)
-                {
-                    Console.WriteLine(e);
-                    loop = true;
-                }
-            }
-            loop = true;
+            string nombre = EmptyStringCheck("Nombre: ");
             switch (choice)
             {
                 case 1:
-                    string tipo = null;
-                    while (loop)
-                    {
-                        try
-                        {
-                            loop = false;
-                            Console.Write("Tipo: ");
-                            tipo = Console.ReadLine();
-                            if (string.IsNullOrEmpty(tipo))
-                                throw new NullStringException("*Required field.");
-                        }
-                        catch (NullStringException e)
-                        {
-                            Console.WriteLine(e);
-                            loop = true;
-                        }
-                    }
+                    string tipo = EmptyStringCheck("Tipo: ");
                     return new Laboratorio(porcentaje, nombre, tipo);
                 case 2:
                     int cantPreguntas = 0;
@@ -175,7 +146,7 @@ namespace Labo_06
                             Console.Write("Cantidad de preguntas: ");
                             cantPreguntas = Convert.ToInt16(Console.ReadLine());
                             if (cantPreguntas < 0)
-                                throw new ArgumentOutOfRangeException("La cantidad de preguntas no puede ser negativa.");
+                                throw new ArgumentOutOfRangeException();
                         }
                         catch (ArgumentOutOfRangeException e)
                         {
@@ -212,37 +183,46 @@ namespace Labo_06
             return null;
         }
 
-        public static void eliminarEvaluacion(List<Evaluacion> listaEvaluaciones)
+        public static void EliminarEvaluacion(List<Evaluacion> listaEvaluaciones)
+        {
+            string nombre = EmptyStringCheck("Nombre de la evaluacion a eliminar: ");
+            listaEvaluaciones.RemoveAll(x => x.nombre == nombre);
+        }
+
+        public static int CalcularPorcentaje(List<Evaluacion> listaEvaluaciones)
+        {
+            int sum = 0;
+            if (listaEvaluaciones.Any())
+            {
+                foreach (var evaluacion in listaEvaluaciones)
+                {
+                    sum += evaluacion.porcentaje;
+                }
+            }
+            return sum;
+        }
+
+        public static string EmptyStringCheck(string desc)
         {
             bool loop = true;
-            string nombre = null;
+            string str = null;
             while (loop)
             {
                 try
                 {
                     loop = false;
-                    Console.Write("Nombre de la evaluacion a eliminar: ");
-                    nombre = Console.ReadLine();
-                    if (string.IsNullOrEmpty(nombre))
-                        throw new NullStringException("*Required field.");
+                    Console.Write(desc);
+                    str = Console.ReadLine();
+                    if (string.IsNullOrEmpty(str))
+                        throw new ArgumentNullException();
                 }
-                catch (NullStringException e)
+                catch (ArgumentNullException e)
                 {
                     Console.WriteLine(e);
                     loop = true;
                 }
             }
-            listaEvaluaciones.RemoveAll(x => x.nombre == nombre);
-        }
-
-        public static int calcularPorcentaje(List<Evaluacion> listaEvaluaciones)
-        {
-            int sum = 0;
-            foreach (var evaluacion in listaEvaluaciones)
-            {
-                sum += evaluacion.porcentaje;
-            }
-            return sum;
+            return str;
         }
     }
 }

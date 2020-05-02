@@ -38,11 +38,9 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="ArgumentOutOfRangeException.cs" />
         <Compile Include="CalcularNota.cs" />
         <Compile Include="Evaluacion.cs" />
         <Compile Include="Laboratorio.cs" />
-        <Compile Include="NullStringException.cs" />
         <Compile Include="Parcial.cs" />
         <Compile Include="PorcentajeOverflowException.cs" />
         <Compile Include="Program.cs" />
