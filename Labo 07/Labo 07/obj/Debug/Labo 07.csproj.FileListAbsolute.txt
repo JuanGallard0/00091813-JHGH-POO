@@ -1,0 +1,10 @@
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\bin\Debug\Labo_07.exe.config
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\bin\Debug\Labo_07.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\bin\Debug\Labo_07.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo 07.csprojAssemblyReference.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo_07.Properties.Resources.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo 07.csproj.GenerateResource.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo 07.csproj.CoreCompileInputs.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo_07.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo_07.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 07\Labo 07\obj\Debug\Labo_07.Form1.resources
