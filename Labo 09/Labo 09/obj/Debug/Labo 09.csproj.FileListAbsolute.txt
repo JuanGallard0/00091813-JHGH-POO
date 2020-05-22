@@ -1,0 +1,36 @@
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Labo_09.exe.config
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Labo_09.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo 09.csprojAssemblyReference.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.Properties.Resources.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo 09.csproj.GenerateResource.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo 09.csproj.CoreCompileInputs.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.AddSignature.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.Form1.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.Inscription.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.RegisterStudent.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.ViewData.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo 09.csproj.CopyComplete
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\obj\Debug\Labo_09.exe.config
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Npgsql.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Buffers.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Memory.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Text.Json.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.ValueTuple.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Npgsql.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\Npgsql.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Buffers.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Memory.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Text.Json.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\00091813-JHGH-POO\Labo 09\Labo 09\bin\Debug\System.ValueTuple.xml
