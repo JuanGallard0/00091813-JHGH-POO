@@ -20,7 +20,7 @@ namespace Labo_09
             {
                 try
                 {
-                    var dt = ConnectionDB.ExecuteQuery($"SELECT mat.idMateria, mat.nombre " +
+                    var dt = ConnectionDB.ExecuteQuery($"SELECT DISTINCT mat.idMateria, mat.nombre " +
                                                        "FROM INSCRIPCION ins ,MATERIA mat, ESTUDIANTE est " +
                                                        $"WHERE ins.idMateria = mat.idMateria " +
                                                        $"AND ins.carnet = '{textBox1.Text}'");
